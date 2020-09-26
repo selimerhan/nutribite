@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFAE71DB24FF48C800A37653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE71DA24FF48C800A37653 /* AppDelegate.swift */; };
+		AFAE71DD24FF48C800A37653 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE71DC24FF48C800A37653 /* SceneDelegate.swift */; };
+		AFAE71DF24FF48C800A37653 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE71DE24FF48C800A37653 /* ViewController.swift */; };
+		AFAE71E224FF48C800A37653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAE71E024FF48C800A37653 /* Main.storyboard */; };
+		AFAE71E424FF48CB00A37653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAE71E324FF48CB00A37653 /* Assets.xcassets */; };
+		AFAE71E724FF48CB00A37653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAE71E524FF48CB00A37653 /* LaunchScreen.storyboard */; };
+		AFAE71F224FF48CB00A37653 /* NutriLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE71F124FF48CB00A37653 /* NutriLifeTests.swift */; };
+		AFAE71FD24FF48CB00A37653 /* NutriLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE71FC24FF48CB00A37653 /* NutriLifeUITests.swift */; };
+		AFAE720D24FF4A6600A37653 /* Recipes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAE720C24FF4A6600A37653 /* Recipes.storyboard */; };
+		AFAE720F24FF4A7000A37653 /* MealPlans.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAE720E24FF4A7000A37653 /* MealPlans.storyboard */; };
+		AFAE721124FF4A7E00A37653 /* WeightTrack.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAE721024FF4A7E00A37653 /* WeightTrack.storyboard */; };
+		AFAE721324FF4A9000A37653 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE721224FF4A9000A37653 /* RecipesViewController.swift */; };
+		AFAE721524FF4A9B00A37653 /* MealPlansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE721424FF4A9B00A37653 /* MealPlansViewController.swift */; };
+		AFAE721724FF4AA700A37653 /* WeightTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE721624FF4AA700A37653 /* WeightTrackingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFAE71EE24FF48CB00A37653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFAE71CF24FF48C800A37653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFAE71D624FF48C800A37653;
+			remoteInfo = NutriLife;
+		};
+		AFAE71F924FF48CB00A37653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFAE71CF24FF48C800A37653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFAE71D624FF48C800A37653;
+			remoteInfo = NutriLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFAE71D724FF48C800A37653 /* NutriLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutriLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAE71DA24FF48C800A37653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFAE71DC24FF48C800A37653 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFAE71DE24FF48C800A37653 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFAE71E124FF48C800A37653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFAE71E324FF48CB00A37653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFAE71E624FF48CB00A37653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFAE71E824FF48CB00A37653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAE71ED24FF48CB00A37653 /* NutriLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutriLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAE71F124FF48CB00A37653 /* NutriLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriLifeTests.swift; sourceTree = "<group>"; };
+		AFAE71F324FF48CB00A37653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAE71F824FF48CB00A37653 /* NutriLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutriLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAE71FC24FF48CB00A37653 /* NutriLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriLifeUITests.swift; sourceTree = "<group>"; };
+		AFAE71FE24FF48CB00A37653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAE720C24FF4A6600A37653 /* Recipes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Recipes.storyboard; sourceTree = "<group>"; };
+		AFAE720E24FF4A7000A37653 /* MealPlans.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MealPlans.storyboard; sourceTree = "<group>"; };
+		AFAE721024FF4A7E00A37653 /* WeightTrack.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WeightTrack.storyboard; sourceTree = "<group>"; };
+		AFAE721224FF4A9000A37653 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
+		AFAE721424FF4A9B00A37653 /* MealPlansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPlansViewController.swift; sourceTree = "<group>"; };
+		AFAE721624FF4AA700A37653 /* WeightTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTrackingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFAE71D424FF48C800A37653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAE71EA24FF48CB00A37653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAE71F524FF48CB00A37653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFAE71CE24FF48C800A37653 = {
+			isa = PBXGroup;
+			children = (
+				AFAE71D924FF48C800A37653 /* NutriLife */,
+				AFAE71F024FF48CB00A37653 /* NutriLifeTests */,
+				AFAE71FB24FF48CB00A37653 /* NutriLifeUITests */,
+				AFAE71D824FF48C800A37653 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFAE71D824FF48C800A37653 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFAE71D724FF48C800A37653 /* NutriLife.app */,
+				AFAE71ED24FF48CB00A37653 /* NutriLifeTests.xctest */,
+				AFAE71F824FF48CB00A37653 /* NutriLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFAE71D924FF48C800A37653 /* NutriLife */ = {
+			isa = PBXGroup;
+			children = (
+				AFAE720B24FF48EA00A37653 /* Storyboards */,
+				AFAE720A24FF48E000A37653 /* ViewControllers */,
+				AFAE71DA24FF48C800A37653 /* AppDelegate.swift */,
+				AFAE71DC24FF48C800A37653 /* SceneDelegate.swift */,
+				AFAE71DE24FF48C800A37653 /* ViewController.swift */,
+				AFAE71E024FF48C800A37653 /* Main.storyboard */,
+				AFAE71E324FF48CB00A37653 /* Assets.xcassets */,
+				AFAE71E524FF48CB00A37653 /* LaunchScreen.storyboard */,
+				AFAE71E824FF48CB00A37653 /* Info.plist */,
+			);
+			path = NutriLife;
+			sourceTree = "<group>";
+		};
+		AFAE71F024FF48CB00A37653 /* NutriLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFAE71F124FF48CB00A37653 /* NutriLifeTests.swift */,
+				AFAE71F324FF48CB00A37653 /* Info.plist */,
+			);
+			path = NutriLifeTests;
+			sourceTree = "<group>";
+		};
+		AFAE71FB24FF48CB00A37653 /* NutriLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFAE71FC24FF48CB00A37653 /* NutriLifeUITests.swift */,
+				AFAE71FE24FF48CB00A37653 /* Info.plist */,
+			);
+			path = NutriLifeUITests;
+			sourceTree = "<group>";
+		};
+		AFAE720A24FF48E000A37653 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AFAE721224FF4A9000A37653 /* RecipesViewController.swift */,
+				AFAE721424FF4A9B00A37653 /* MealPlansViewController.swift */,
+				AFAE721624FF4AA700A37653 /* WeightTrackingViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AFAE720B24FF48EA00A37653 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AFAE720C24FF4A6600A37653 /* Recipes.storyboard */,
+				AFAE720E24FF4A7000A37653 /* MealPlans.storyboard */,
+				AFAE721024FF4A7E00A37653 /* WeightTrack.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFAE71D624FF48C800A37653 /* NutriLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFAE720124FF48CB00A37653 /* Build configuration list for PBXNativeTarget "NutriLife" */;
+			buildPhases = (
+				AFAE71D324FF48C800A37653 /* Sources */,
+				AFAE71D424FF48C800A37653 /* Frameworks */,
+				AFAE71D524FF48C800A37653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NutriLife;
+			productName = NutriLife;
+			productReference = AFAE71D724FF48C800A37653 /* NutriLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFAE71EC24FF48CB00A37653 /* NutriLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFAE720424FF48CB00A37653 /* Build configuration list for PBXNativeTarget "NutriLifeTests" */;
+			buildPhases = (
+				AFAE71E924FF48CB00A37653 /* Sources */,
+				AFAE71EA24FF48CB00A37653 /* Frameworks */,
+				AFAE71EB24FF48CB00A37653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFAE71EF24FF48CB00A37653 /* PBXTargetDependency */,
+			);
+			name = NutriLifeTests;
+			productName = NutriLifeTests;
+			productReference = AFAE71ED24FF48CB00A37653 /* NutriLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFAE71F724FF48CB00A37653 /* NutriLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFAE720724FF48CB00A37653 /* Build configuration list for PBXNativeTarget "NutriLifeUITests" */;
+			buildPhases = (
+				AFAE71F424FF48CB00A37653 /* Sources */,
+				AFAE71F524FF48CB00A37653 /* Frameworks */,
+				AFAE71F624FF48CB00A37653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFAE71FA24FF48CB00A37653 /* PBXTargetDependency */,
+			);
+			name = NutriLifeUITests;
+			productName = NutriLifeUITests;
+			productReference = AFAE71F824FF48CB00A37653 /* NutriLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFAE71CF24FF48C800A37653 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Selim Erhan";
+				TargetAttributes = {
+					AFAE71D624FF48C800A37653 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					AFAE71EC24FF48CB00A37653 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = AFAE71D624FF48C800A37653;
+					};
+					AFAE71F724FF48CB00A37653 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = AFAE71D624FF48C800A37653;
+					};
+				};
+			};
+			buildConfigurationList = AFAE71D224FF48C800A37653 /* Build configuration list for PBXProject "NutriLife" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFAE71CE24FF48C800A37653;
+			productRefGroup = AFAE71D824FF48C800A37653 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFAE71D624FF48C800A37653 /* NutriLife */,
+				AFAE71EC24FF48CB00A37653 /* NutriLifeTests */,
+				AFAE71F724FF48CB00A37653 /* NutriLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFAE71D524FF48C800A37653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAE720D24FF4A6600A37653 /* Recipes.storyboard in Resources */,
+				AFAE71E724FF48CB00A37653 /* LaunchScreen.storyboard in Resources */,
+				AFAE721124FF4A7E00A37653 /* WeightTrack.storyboard in Resources */,
+				AFAE720F24FF4A7000A37653 /* MealPlans.storyboard in Resources */,
+				AFAE71E424FF48CB00A37653 /* Assets.xcassets in Resources */,
+				AFAE71E224FF48C800A37653 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAE71EB24FF48CB00A37653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAE71F624FF48CB00A37653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFAE71D324FF48C800A37653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAE721524FF4A9B00A37653 /* MealPlansViewController.swift in Sources */,
+				AFAE721724FF4AA700A37653 /* WeightTrackingViewController.swift in Sources */,
+				AFAE721324FF4A9000A37653 /* RecipesViewController.swift in Sources */,
+				AFAE71DF24FF48C800A37653 /* ViewController.swift in Sources */,
+				AFAE71DB24FF48C800A37653 /* AppDelegate.swift in Sources */,
+				AFAE71DD24FF48C800A37653 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAE71E924FF48CB00A37653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAE71F224FF48CB00A37653 /* NutriLifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAE71F424FF48CB00A37653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAE71FD24FF48CB00A37653 /* NutriLifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFAE71EF24FF48CB00A37653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFAE71D624FF48C800A37653 /* NutriLife */;
+			targetProxy = AFAE71EE24FF48CB00A37653 /* PBXContainerItemProxy */;
+		};
+		AFAE71FA24FF48CB00A37653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFAE71D624FF48C800A37653 /* NutriLife */;
+			targetProxy = AFAE71F924FF48CB00A37653 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFAE71E024FF48C800A37653 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFAE71E124FF48C800A37653 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFAE71E524FF48CB00A37653 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFAE71E624FF48CB00A37653 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFAE71FF24FF48CB00A37653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFAE720024FF48CB00A37653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFAE720224FF48CB00A37653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 354MT63JR2;
+				INFOPLIST_FILE = NutriLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.selim.erhan.NutriLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFAE720324FF48CB00A37653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 354MT63JR2;
+				INFOPLIST_FILE = NutriLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.selim.erhan.NutriLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFAE720524FF48CB00A37653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 354MT63JR2;
+				INFOPLIST_FILE = NutriLifeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.selim.erhan.NutriLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutriLife.app/NutriLife";
+			};
+			name = Debug;
+		};
+		AFAE720624FF48CB00A37653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 354MT63JR2;
+				INFOPLIST_FILE = NutriLifeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.selim.erhan.NutriLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutriLife.app/NutriLife";
+			};
+			name = Release;
+		};
+		AFAE720824FF48CB00A37653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 354MT63JR2;
+				INFOPLIST_FILE = NutriLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.selim.erhan.NutriLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NutriLife;
+			};
+			name = Debug;
+		};
+		AFAE720924FF48CB00A37653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 354MT63JR2;
+				INFOPLIST_FILE = NutriLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.selim.erhan.NutriLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NutriLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFAE71D224FF48C800A37653 /* Build configuration list for PBXProject "NutriLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAE71FF24FF48CB00A37653 /* Debug */,
+				AFAE720024FF48CB00A37653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFAE720124FF48CB00A37653 /* Build configuration list for PBXNativeTarget "NutriLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAE720224FF48CB00A37653 /* Debug */,
+				AFAE720324FF48CB00A37653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFAE720424FF48CB00A37653 /* Build configuration list for PBXNativeTarget "NutriLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAE720524FF48CB00A37653 /* Debug */,
+				AFAE720624FF48CB00A37653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFAE720724FF48CB00A37653 /* Build configuration list for PBXNativeTarget "NutriLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAE720824FF48CB00A37653 /* Debug */,
+				AFAE720924FF48CB00A37653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFAE71CF24FF48C800A37653 /* Project object */;
+}
